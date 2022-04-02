@@ -1,0 +1,90 @@
+.seat-map{
+    padding-bottom: 50px;
+}
+
+.seatBlock{
+    padding: 0;
+    margin: 12px;
+    width: 52px;
+    height: 44px;
+    cursor: pointer;
+    display: contents;
+    text-align: center;
+    background: 0 0;
+    vertical-align: bottom;
+}
+
+button{
+    border: none;
+}
+
+.seatRow{
+    white-space: nowrap;
+}
+
+.seatBlock.seatAvailable div, .seatBlock.leftloveseatAvailable div, .seatBlock.rightloveseatAvailable div{
+    background: rgba(49, 68, 119, 0.7);
+}
+
+.seatBlock.seatSelected div{
+    background: rgba(10, 33, 94, 0.7);
+}
+
+.seatBlock.seatUnavailable div{
+    background: rgba(65, 66, 66, 0.7);
+}
+
+.seatBlock .seatArmLeft {
+    width: 12px;
+    height: 44px;
+    border-radius: 6px 6px 0 6px;
+    vertical-align: middle;
+  }
+  .seatBlock div {
+    float: none;
+    display: inline-block;
+    color: #fff;
+  }
+
+  .seatBlock .seat {
+    margin: 6px 0 0;
+    padding: 0;
+    height: 38px;
+    width: 28px;
+    vertical-align: middle;
+  }
+
+  .seatBlock .seatDesignation {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 38px;
+    z-index: 5;
+  }
+
+  .seatBlock .seatArmRight {
+    width: 12px;
+    height: 44px;
+    border-radius: 6px 6px 6px 0;
+    vertical-align: middle;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+  .btn{
+      display: contents !important;
+  }
+
+  .seatRow{
+      padding-bottom: 50px;
+  }
